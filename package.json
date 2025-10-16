@@ -1,0 +1,29 @@
+{
+  "name": "crcp6340contract",
+  "version": "1.0.0",
+  "description": "This is the smart contract for my nft mint for CRCP6340 course",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "coverage": "npx hardhat coverage",
+    "deploy": "node ./scripts/deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macelindoo/CRCP6340Contract.git"
+  },
+  "keywords": [],
+  "author": "Ilea Shutler",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/macelindoo/CRCP6340Contract/issues"
+  },
+  "homepage": "https://github.com/macelindoo/CRCP6340Contract#readme",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@openzeppelin/contracts": "^5.4.0",
+    "dotenv": "^17.2.3",
+    "hardhat": "^2.26.0"
+  }
+}
